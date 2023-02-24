@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" type="text/css" href="file:///C:/Users/Client/Downloads/bootstrap-5.2.3-dist/bootstrap-5.2.3-dist/css/bootstrap.min.css">
+</head>
+<html>
+    <body>
+        <form action="" method="post">
+            <button type="submit" name="su" value="su">su</button>
+            <button type="submit" name="giu" value="giu">indietro</button>
+            <button type="submit" name="dx" value="dx">dx</button>
+            <button type="submit" name="sx" value="sx">sx</button>
+            <button type="submit" name="1" value="1">avantiSinistraAvanti</button>
+            <button type="submit" name="2" value="2">destraAvantiDestra</button>
+            <button type="submit" name="3" value="3">avantiDestraAvanti</button>
+            <button type="submit" name="4" value="4">destraAvantiDestra2</button>
+            <button type="submit" name="5" value="5">avanti</button>
+        </form>
+        <div>{% if error %}
+             <p class="error"><strong>Error:</strong> {{ error }}
+              {% endif %}
+        </div>
+    </body>
+</html>
